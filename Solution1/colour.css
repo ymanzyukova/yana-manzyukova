@@ -1,11 +1,14 @@
 body {background-color: #d8f2ce;color: #185706;}
 
 h1 {background-color: #0d6100;color: #ccffc4;}
+h1 {font-size: 20pt}
 
 h2 {background-color: #2c9c1a;color: #ccffc4;}
+h2 {font-size: 17pt}
 
 h3 {background-color: #46cf30;color: #ccffc4;}
+h3 {font-size: 15pt}
 
 p {background-color: #d8f2ce;color: #185706;}
 p {font-family:Verdana,Arial,sans-serif}
-p {font-size: 20pt}
+p {font-size: 10pt}
