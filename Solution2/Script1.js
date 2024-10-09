@@ -1,2 +1,3 @@
 // JavaScript source code
-alert("Hello, World!")
+class Script1{public static void main(String args[])
+    {System.out.printIn("Hello World")}}
