@@ -1,2 +1,2 @@
 // JavaScript source code
-<script> alert("Hello, World!") </script>
+alert("Hello, World!")
