@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" contact="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style2.css">
+    <script defer scr="form-handler.js"></script>
+</head>
+<body>
+    <!--navigation bar-->
+    <header>
+        <h1>Yana's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Contact</a></li>
+                <a href="https://www.torontomu.ca/" target="_blank">Page 1</a>
+                <li><a href="Lab3.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--contact form-->
+    <main>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form id="contactForm">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </p>
+                <p>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input form="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </p>
+                <p>
+                    <label for="preferences">Preferences:</label>
+                    <input type="checkbox" id="newsletter" name="preferences" value="newsletter">
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="updates" name="preferences" value="updates">
+                    <label for="updates"></label>
+                </p>
+                <p>
+                    <label for="favColor">Favorite Color:</label>
+                    <input type="color" id="favColor">
+                </p>
+                <p>
+                    <lable for="message">Message:</lable>
+                    <textarea id="message" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" id="clear" value="Clear">
+                </p>
+            </form>
+        </section>
+    </main>
+    <!--footer-->
+    <footer>
+        <p>
+            &copy; 2024 Yana's Website
+        </p>
+    </footer>
+</body>
+</html>

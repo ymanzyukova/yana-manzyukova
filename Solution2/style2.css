@@ -1,0 +1,75 @@
+/* Basic styling for layout and colors */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #e4fcca;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	background-color: #4a8c06;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+	nav ul li {
+		display: inline;
+		margin: 0 10px;
+	}
+
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+		}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="color"] {
+	width: 100%;
+	padding: 0.5rem;
+	margin-top: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	padding: 0.5rem 1rem;
+	margin: 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	background-color: #28a745;
+	color: white;
+}
+
+input[type="reset"] {
+	background-color: #dc3545;
+	color: white;
+}

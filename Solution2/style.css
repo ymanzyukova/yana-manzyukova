@@ -21,3 +21,8 @@
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+
+body {
+	window .addEventListener("load", function () { changeBackground('#beffa8') });
+	background: #beffa8;
+}
