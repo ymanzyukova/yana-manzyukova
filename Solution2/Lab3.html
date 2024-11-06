@@ -4,24 +4,100 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" contact="width=device-width, initial-scale=1.0">
-    <title>Lab 3</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style2.css">
     <script defer scr="form-handler.js"></script>
 </head>
 <body>
     <header>
-        <h1>Yana's Website</h1>
-        <nav>
-            <ul>
-                <li><a href="HTMLPage1.html">Contact</a></li>
-                <a href="https://www.torontomu.ca/" target="_blank">Page 1</a>
-                <li><a href="Lab3.html">Home</a></li>
-            </ul>
-        </nav>
+        <!--fix header to align left and make static-->
+        <!--fix boxes, so they have a shadow-->
+        <div class="header-content">
+            <a href="Y (1).png" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="Y (1).png" alt="Logo" style="width:50px; height:50px;" />
+            </a>
+            <span class="header-text" style="font-size:24px;">Yana Manzyukova</span>
+            <nav>
+                <ul>
+                    <li><a href="HTMLPage1.html">Contact</a></li>
+                    <li><a href="Lab3.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <h1>Welcome to Yana Manzyukova's Website</h1>
-    <p>Welcome to my personal website. <br />This is my submission for Lab 3.</p>
+    <br />
+    <br />
+    <br /> 
     <hr />
+    <br />
+    <br />
+    <!--change image-->
+    <!--Part1 Image-->
+    <div class="grid-container">
+        <img src="this2.jpg" alt="Description" class="grid-image" />
+        <div class="grid-text">
+            <h2>Welcome to my website!</h2>
+            <p>My name is Yana Manzyukova and this is my personal webiste used to showcase my skills. *I will insert more text later*</p>
+            <p>
+                <a href="https://www.linkedin.com/in/yana-manzyukova-b68437232/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="linkedin-logo.png" alt="LinkedIn" style="width:24px; height:24px;" />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="instagram-logo.png" alt="Logo" style="width:24px; height:24px;" />
+                </a>
+                </p>
+        </div>
+    </div>
+    <br />
+    <br />
+    <!--Part1 Text-->
+    <h2>Previous Expierence</h2>
+    <div class="container">
+        <div class="main-content">
+            <div class="box1">
+                <div class="header">Header1</div>
+                <div class="content1">Main content will go here</div>
+            </div>
+            <div class="box2">
+                <div class="header">Header2</div>
+                <div class="content">Main content will go here</div>
+            </div>
+            <div class="box3">
+                <div class="header">Header3</div>
+                <div class="content">Main content will go here</div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-item">Sidebar item 1</div>
+            <div class="sidebar-item">Sidebar item 2</div>
+            <div class="sidebar-item">Sidebar item 3</div>
+            <div class="sidebar-item">Sidebar item 3</div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <!--Part2-->
+    <!--make the text align in the center-->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="python.png" alt="Python" class="image" />
+            <p class="caption">Python</p>
+        </div>
+        <div class="gallery-item">
+            <img src="excel.jpg" alt="Excel" class="image" />
+            <p class="caption">Excel</p>
+        </div>
+        <div class="gallery-item">
+            <img src="power_bi.jpg" alt="Power BI" class="image" />
+            <p class="caption">Power BI</p>
+        </div>
+        <div class="gallery-item">
+            <img src="sql.jpg" alt="SQL" class="image" />
+            <p class="SQL">SQL</p>
+        </div>
+    </div>
+    <!--Part3-->
     <h2>Education History</h2>
     <ol>
         <li>Stephen Lewis Secondary School, 2016-2020</li>
@@ -60,14 +136,30 @@
         </div>
 
         <hr />
-        <h3>Extra-curricular</h3>
-    <p>I am currently enrolled as a co-op student. I have finished all my work terms. I am also a mentor in the co-op mentorship program. I hope to help other stduents since the start of co-op can seem very overwhelming.</p>
-    <h3>Educational Rewards</h3>
-    <p>Through my co-op program I have gained some badges from bootcamps.</p>
+      </p>
+    <section class="subscription-section">
+        <h2>Subscribe to my newsletter</h2>
+        <p>get the latest update, and news straight to your inbox.</p>
+        <form action="your-server-endpoint" method="post" class="subscription-form">
+            <input type="email" name="email" placeholder="Enter your email" required class="email-input" />
+            <button type="submit" class="subscription-button"></button>
+        </form>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <!--footer-->
     <footer>
         <p>
-            &copy; 2024 Yana's Website
+            <a href="https://www.linkedin.com/in/yana-manzyukova-b68437232/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="linkedin-logo.png" alt="LinkedIn" style="width:24px; height:24px;" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="instagram-logo.png" alt="Logo" style="width:24px; height:24px;" />
+            </a>
+            ymanzyukova@torontomu.com | 647-200-6000
         </p>
     </footer>
 </body>
