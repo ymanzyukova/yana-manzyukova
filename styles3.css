@@ -16,3 +16,13 @@ font-size:1em;
 section {
 margin:20px 0;
 }
+
+body {
+    font-size: 16px;
+}
+
+
+/* Enlarged font size for lab8 */
+.large-text {
+    font-size: 20px;
+}
