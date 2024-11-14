@@ -206,3 +206,13 @@ input[type="reset"] {
 	background-color: #dc3545;
 	color: white;
 }
+
+body {
+	font-size: 16px;
+}
+
+
+/* Enlarged font size for lab8 */
+.large-text {
+	font-size: 20px; 
+}
