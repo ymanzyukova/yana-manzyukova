@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Lab 8</title>
+    <link rel="stylesheet" href="style2.css">
+    <script defer scr="form-handler.js"></script>
+</head>
+<body>
+    <!--navigation bar-->
+    <header>
+        <div class="header-content">
+            <a href="Y (1).png" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="Y (1).png" alt="Logo" style="width:50px; height:50px;" />
+            </a>
+            <span class="header-text" style="font-size:24px;">Yana Manzyukova</span>
+            <nav>
+                <ul>
+                    <li><a href="HTMLPage1.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lab8.html">Lab 8</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <!--Audio/Visual-->
+    <section>
+        <h2>Audio</h2>
+        <figure>
+            <audio controls>
+                <source src="sunflower.mp3" type="audio/mp3" />
+            </audio>
+            <figurecaption>
+                Audio recording of a song by Post Malone, Sunflower, October 18, 2018. Retrrieved from Youtube.com.Youtube. (2018, October 18). Sunflower [Video]. Youtube. https://youtu.be/ApXoWvfEYVU?si=1DDdIJ41k_qWI3LM
+            </figurecaption>
+        </figure>
+    </section>
+
+    <!--button for larger text size-->
+    <section>
+        <button onclick="increaseTextsize()">Increase Text Size</button>
+    </section>
+
+    <!--button to change text/background color-->
+    <section>
+        <button onclick="toggleColors()">Toggle High Contrast</button>
+    </section>
+    <style>
+        .high-contrast {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+
+    <!--images w captions,alt-text,alt-text display button-->
+    <section>
+        <h2>My Images</h2>
+        <figure>
+            <img src="image1.jpg" alt="Image 1" id="img1" />
+            <figcaption>
+                A vibrant graffiti mural of a dragon's face painted on a brick wall. The dragon is depicted with green scales, sharp white teeth, and pink whiskers. Taken on November 2 2024 at Queen Street West, Old Toronto.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="image2.jpg" alt="Image 2" id="img2" />
+            <figcaption>
+                A graffiti artwork of a stylized dog on a pink background painted over a doorway. Taken on November 2 2024 at Queen Street West, Old Toronto.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="image3.jpg" alt="Image 3" id="img3" />
+            <figcaption>
+                A cartoonish red and teal devil character painted on a brick wall with graffiti. The character has a mischievous expression, large eyes, fanged teeth, and tiny wings. Taken on November 2 2024 at Queen Street West, Old Toronto.
+            </figcaption>
+        </figure>
+        <button onclick="displayAltText()">Show Alt Text for Images</button>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--footer-->
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/yana-manzyukova-b68437232/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="linkedin-logo.png" alt="LinkedIn" style="width:24px; height:24px;" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <img src="instagram-logo.png" alt="Logo" style="width:24px; height:24px;" />
+            </a>
+            ymanzyukova@torontomu.com | 647-200-6000
+        </p>
+    </footer>
+</body>
+</html>
