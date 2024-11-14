@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 //lab8
-function increaseTextSize() {
+function increaseTextsize() {
     document.body.style.fontSize = "1.2em";
 }
 function toggleColors() {
