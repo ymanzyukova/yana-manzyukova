@@ -52,7 +52,6 @@ nav ul {
 	grid-template-columns: auto 1fr;
 	gap: 20px;
 	align-items: center;
-	background-color: lightgrey;
 }
 
 .grid-image {
@@ -64,9 +63,10 @@ nav ul {
 	max-width: 1000px;
 }
 /*Part2*/
-.container{
-	display:grid;
-	grid-template-columns:3fr 1fr;
+.container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	background-color: #b4b5b8;
 	gap:20px;
 }
 .main-content{
