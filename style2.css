@@ -53,7 +53,7 @@ nav ul {
 	grid-template-columns: auto 1fr;
 	gap: 20px;
 	align-items: center;
-	background-color: lightgrey;
+	background-color: #b4b5b8;
 }
 
 .grid-image {
