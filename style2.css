@@ -7,11 +7,11 @@ body {
 }
 /*header and footer*/
 header, footer {
-	background-color: lightgray;
+	background-color: #c7ffb3;
 	color: black;
 	text-align: center;
 	padding: 1rem;
-	margin:-65px;
+	margin: -65px;
 }
 
 .header-content{
@@ -42,7 +42,7 @@ nav ul {
 			color: black;
 			background-color: #b4b5b8;
 			text-decoration: none;
-			border: 1px solid transparent;
+			border: 2px solid transparent;
 			border-block-color: black;
 			transition: background-color 0.3s, border-color 0.3s;
 		}
@@ -66,9 +66,9 @@ nav ul {
 .container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	background-color: lightgrey;
+	background-color: #c7ffb3;
 	padding: 15px;
-	gap:20px;
+	gap: 20px;
 }
 .main-content{
 	display:flex;
@@ -117,13 +117,13 @@ nav ul {
 
 /*subscription*/
 .subsription-section {
-	background-color: #f3f3f3;
-	padding:40px 20px;
-	text-align:center;
-	border-radius:8px;
-	max-width:600px;
+	background-color: #c7ffb3;
+	padding: 40px 20px;
+	text-align: center;
+	border-radius: 8px;
+	max-width: 600px;
 	margin: 0 auto;
-	box-shadow:0px 4px 8px rgba(0,0,0,0.1);
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 .subscription-selection h2{
 	font-size:24px;
