@@ -1,7 +1,6 @@
 /* Basic styling for layout and colors */
 body {
 	font-family: Arial, sans-serif;
-	background-color: white;
 	color: #333;
 	margin: 65px;
 	padding: 0;
@@ -53,7 +52,7 @@ nav ul {
 	grid-template-columns: auto 1fr;
 	gap: 20px;
 	align-items: center;
-	background-color: #b4b5b8;
+	background-color: lightgrey;
 }
 
 .grid-image {
