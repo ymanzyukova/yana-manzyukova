@@ -51,6 +51,7 @@ nav ul {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	gap: 20px;
+	background-color: white;
 	align-items: center;
 }
 
