@@ -67,7 +67,7 @@ nav ul {
 .container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	background-color: #b4b5b8;
+	background-color: lightgrey;
 	gap:20px;
 }
 .main-content{
