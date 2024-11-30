@@ -7,7 +7,7 @@ body {
 }
 /*header and footer*/
 header, footer {
-	background-color: #c7ffb3;
+	background-color: #dcfad2;
 	color: black;
 	text-align: center;
 	padding: 1rem;
@@ -66,7 +66,7 @@ nav ul {
 .container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	background-color: #c7ffb3;
+	background-color: #dcfad2;
 	padding: 15px;
 	gap: 20px;
 }
@@ -117,7 +117,7 @@ nav ul {
 
 /*subscription*/
 .subsription-section {
-	background-color: #c7ffb3;
+	background-color: #dcfad2;
 	padding: 40px 20px;
 	text-align: center;
 	border-radius: 8px;
